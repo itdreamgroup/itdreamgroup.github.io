@@ -1,3 +1,18 @@
 # itdreamgroup.github.io
-This repository is designed to store feed-files from marketplace.
-Repository is connected to our Yandex.Market account.
+# **Краткое описание репозитория**
+Репозиторий предназначен для хранения feed-файлов для аккаунта Яндекс.Маркет.
+
+**Инициатор задачи**: Стрельчик Андрей (***strelchik.andrey@dream-group.biz***)
+
+**Описание задачи**:
+Для настройки рекламной кампании на маркетплейсы нужно выгрузить все товары магазина с ozon api и wb api. 1 фид= 1 магазин и 1 маркетплейс. Фид файл формируется в XML формате. 
+Основное содержание: информация о магазине <shop>. информация о категориях <categories>.Список товарных предложений рекламодателя содержится в элементе <offers>. Каждое товарное предложение описывается отдельным элементом <offer>. 
+Подробнее в документации https://yandex.ru/support/direct/feeds/
+Требования для фида Яндекс Директ и какие элементы обязательные: https://yandex.ru/support/direct/feeds/requirements.html
+Так же интересует авто обновление этого фида каждый день. Если есть дополнительные уточнения, пожалуйста, сообщите.
+
+**Код** формирования feed-файлов расположен по ссылке: 
+  1. OZON: https://github.com/itdreamgroup/apps/tree/main/RU/site_ozon/get_feed_file
+  2. Wildberries: https://github.com/itdreamgroup/apps/tree/main/RU/site_wildberries/get_feed_file
+  
+**Период обновления**: ежедневно в 7:30 утра.
