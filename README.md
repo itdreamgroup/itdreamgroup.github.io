@@ -1,4 +1,3 @@
-# itdreamgroup.github.io
 # **Краткое описание репозитория**
 Репозиторий предназначен для хранения feed-файлов для аккаунта Яндекс.Маркет.
 
@@ -11,7 +10,7 @@
 Требования для фида Яндекс Директ и какие элементы обязательные: https://yandex.ru/support/direct/feeds/requirements.html
 Так же интересует авто обновление этого фида каждый день. Если есть дополнительные уточнения, пожалуйста, сообщите.
 
-**Код** формирования feed-файлов расположен по ссылке: 
+**Код формирования feed-файлов** расположен по ссылке: 
   1. OZON: https://github.com/itdreamgroup/apps/tree/main/RU/site_ozon/get_feed_file
   2. Wildberries: https://github.com/itdreamgroup/apps/tree/main/RU/site_wildberries/get_feed_file
   
